@@ -1,0 +1,10 @@
+ul {
+    width: 25%;
+    height: 200px;
+    border: 1px solid burlywood;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: -5px;
+    box-shadow: 10px 10px #ebebe6;
+}
